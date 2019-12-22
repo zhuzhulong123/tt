@@ -2,7 +2,7 @@ vps必须是dhcp分配IP,否则不行
 解压后把.gz放到自己的网站上
 
 wget -O- http://your_website/koolshare-dhcp-tyyd777-v1.img.gz | gunzip | dd of=/dev/vda
-亚马逊后面是/dev/xvda,具体用df -h查看
+亚马逊lightsail后面是/dev/xvda,具体用df -h查看
 
 运行完后,无法用命令重启,需要在vps后台网页上重启
 
