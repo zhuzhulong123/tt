@@ -6,7 +6,7 @@ wget -O- http://your_website/koolshare-dhcp-tyyd777-v1.img.gz | gunzip | dd of=/
 
 运行完后,无法用命令重启,需要在vps后台网页上重启
 
-连接openwrt的方法:
+重启后,连接openwrt的方法:
 ttyd地址
 http://你的VPS的IP:777
 用户root
