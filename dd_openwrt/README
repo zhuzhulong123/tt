@@ -1,1 +1,19 @@
-1
+vps必须是dhcp分配IP,否则不行
+解压后把.gz放到自己的网站上
+
+wget -O- http://your_website/koolshare-dhcp-tyyd777-v1.img.gz | gunzip | dd of=/dev/vda
+亚马逊后面是/dev/xvda,具体用df -h查看
+
+运行完后,无法用命令重启,需要在vps后台网页上重启
+
+连接openwrt的方法:
+ttyd地址
+http://你的VPS的IP:777
+用户root
+密码koolshare
+
+openwrt的luci地址
+http://你的VPS的IP:888
+
+openwrt的ssh地址
+http://你的VPS的IP:222
