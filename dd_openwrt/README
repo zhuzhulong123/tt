@@ -1,3 +1,10 @@
+2019.12.24
+添加一个通过lean开源编译的openwrt固件(下载oplean压缩包),含各种全家桶
+https://github.com/coolsnowwolf/lede
+使用方法和下面一致
+固件的用户root
+密码password
+-----------------------------
 vps必须是dhcp分配IP,否则不行
 解压后把.gz放到自己的网站上
 
